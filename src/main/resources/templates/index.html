@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>URL Shortener</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<main>
+    <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">Url Shortener</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mt-3">Type URL to shorten: </p>
+            <div class="d-flex">
+                <input class="form-control me-2" type="text" id="url-to-enc">
+                <button class="btn btn-outline-primary" onclick="postURLEnc()">Submit</button>
+            </div>
+            <p class="lead mt-3">Here is your shorten URL: </p>
+            <div class="d-flex">
+                <input class="form-control me-2" type="text" id="url-result" disabled>
+                <button class="btn btn-outline-secondary" onclick="copyToClipboard()">Copy</button>
+            </div>
+            <p class="lead mt-3" id="result-msg"></p>
+        </div>
+    </div>
+</main>
+
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+</body>
+</html>
