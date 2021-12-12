@@ -1,5 +1,5 @@
 # URL Shortener
-[Django로 구현했던 URL Shortener]()를 Spring Boot로 재구현한 프로젝트
+[Django로 구현했던 URL Shortener](https://github.com/njsh4261/url_shortener)를 Spring Boot로 재구현한 프로젝트
 
 # 기술 스택
 - backend: Spring Boot 2.6.1
